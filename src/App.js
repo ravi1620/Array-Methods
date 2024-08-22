@@ -468,7 +468,7 @@ return ele +1;
       }}>map</button>
 
       {charctersOfRamayan.map((ele,i)=>{
-        return <h1>{ele}</h1>
+        return <h1 key={i}>{ele}</h1>
       })};
     </div>
   );
