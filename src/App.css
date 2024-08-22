@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  /* background-color: aqua; */
+}
+button:hover{
+  background-color: orange;
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px;
+border-radius: 50px;
+box-shadow: 5px 10px 10px grey;
+}
+body{
+  background-image: url(https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-attachment:fixed;
+}
+.h1{
+  background-color: rgb(189, 178, 181);
+  color: blue;
+  display: inline-block;
+  border-radius: 18px;
+}
