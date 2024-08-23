@@ -433,7 +433,7 @@ function App() {
       <button onClick={() => {
         let array=[1,2,3,4,5,6,7,8,910,11,12,13,14,15,16,17,18,19,20,-20];
 
-      let result =  array.reduce((ele,i,tot)=>{
+      let result =  array.reduce((ele,tot)=>{
           return (tot +=ele);
         });
         console.log(result);
@@ -441,7 +441,7 @@ function App() {
       <button onClick={() => {
                 let array=[1,2,3,4,5,6,7,8,910,11,12,13,14,15,16,17,18,19,20];
 
-                let result =  array.reduceRight((ele,i,tot)=>{
+                let result =  array.reduceRight((ele,tot)=>{
                     return (tot +=ele);
                   });
                   console.log(result);
